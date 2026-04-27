@@ -132,3 +132,4 @@ weasel==1.0.0
 whisper==1.1.10
 Wikipedia-API==0.14.1
 wrapt==2.1.2
+flask==2.3.2

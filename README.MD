@@ -15,3 +15,4 @@ pip
 执行 pip install -r requirements.txt
 
 本项目为了本地快速演示，将模型直接下载到本地，开源的仓库中没有包含，请自行前往huggingface下载。
+https://huggingface.co/speechbrain/asr-transformer-aishell
