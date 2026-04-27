@@ -4,7 +4,7 @@
 *.pth
 *.bin
 *.safetensors
-pretrained_models/
+
 savedir/
 download/
 *.wav
