@@ -1,0 +1,16 @@
+
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+pretrained_models/
+savedir/
+download/
+*.wav
+*.zip
+*.rar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
