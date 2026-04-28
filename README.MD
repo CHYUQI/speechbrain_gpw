@@ -24,5 +24,3 @@ pip install -r requirements.txt
 下载完成后，将模型文件夹放置到项目对应目录即可正常运行。
 
 ---
-
-直接复制上面全部内容，保存为 `README.md` 即可直接上传 GitHub，排版、格式、链接全部完善。
