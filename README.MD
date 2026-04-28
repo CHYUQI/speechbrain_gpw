@@ -1,18 +1,26 @@
-SpeechBrain-GPW
+# SpeechBrain-GPW
+基于 SpeechBrain 框架开发的轻量化语音识别项目，依托 Aishell 预训练 Transformer 模型实现中文语音转文字，部署简单、拓展性强，适用于课程任务实践与二次开发。
 
-基于 SpeechBrain 框架开发的语音相关项目，聚焦于大课任务的研究与实现，提供轻量化、可扩展的语音处理解决方案。
+## 项目介绍
+本项目基于 `speechbrain/asr-transformer-aishell` 模型，快速搭建离线中文语音识别能力。
 
-项目介绍
+目前支持本地音频文件转写，后续将迭代新增**麦克风实时音频采集**，实现实时语音转文字功能。
 
-SpeechBrain-GPW 依托 Aishell Transformer 模型，十分甚至九分简单的实现语音转文字，后续增加麦克风采集转文字支持
+## 快速开始
+### 环境要求
+- Python 3.11
 
-快速开始
-Quick Start
+### 依赖安装
+```bash
+pip install -r requirements.txt
+```
 
-Python 3.11
-pip
+### 模型准备
+为满足本地离线快速演示需求，项目依赖外部预训练模型。
+受仓库体积限制，**代码仓库不包含模型权重文件**，需手动前往 Hugging Face 自行下载：
 
-执行 pip install -r requirements.txt
+[speechbrain/asr-transformer-aishell](https://huggingface.co/speechbrain/asr-transformer-aishell)
 
-本项目为了本地快速演示，将模型直接下载到本地，开源的仓库中没有包含，请自行前往huggingface下载。
-https://huggingface.co/speechbrain/asr-transformer-aishell
+下载完成后，将模型文件夹放置到项目对应目录即可正常运行。
+
+---
